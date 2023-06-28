@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    
+    background-color: #8DFF87;
+    font-family: Poppins, sans-serif;
+}
+header{
+   text-align: center;
+    background-image: linear-gradient(to right, #185224, #41D95F);
+    color: white;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.532);
+    
+}
+
+
+h1{
+    color: white;
+}
+
+
+nav > a{
+    padding: 15px;
+    text-decoration: none;
+    color: #8DFF87;
+}
+
+a:hover{
+    font-family: Poppins;
+    text-decoration: underline;
+    color: #00D029;
+}
+
+main img{
+    width: 100%;
+}
+
+main  a{
+    color: #185224;
+}
+
+main img.pequena{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-color: #185224;
+    color: white;
+}
+
+footer a {
+    
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #41D95F;
+}
