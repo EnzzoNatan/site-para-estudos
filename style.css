@@ -14,11 +14,37 @@ body{
     background-color: #8DFF87;
     font-family: Poppins, sans-serif;
 }
-header{
-   text-align: center;
-    background-image: linear-gradient(to right, #185224, #41D95F);
-    color: white;
+
+p{
+    text-align: justify;
+    line-height: 2em;
 }
+
+header{
+    background-image: linear-gradient(to right, #185224, #41D95F);
+    min-height: 150px; 
+    padding-top: 30px;
+}
+
+header > h1{
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+
+header > p{
+    text-align: center;
+    color: #032b0b;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+
 main{
     min-width: 300px;
     max-width: 1000px;
@@ -32,18 +58,45 @@ main{
 }
 
 
-h1{
-    color: white;
+main a:hover{
+    transition-duration: 0.3s;
+    padding: 2px;
+    background-color: #032b0b;
+    color: #41D95F;
+    border-radius: 3px;
+
+
 }
 
+article > h1{
+    color:#09761e;
+}
+
+article> h2{
+    color: #09761e;
+}
+
+aside > h3 {
+    color: #00D029;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
 
 nav > a{
-    padding: 15px;
+    padding: 8px;
     text-decoration: none;
     color: #8DFF87;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+
 }
 
-a:hover{
+nav > a:hover{
+    background-color: #032b0b;
+    padding: 3px;
     font-family: Poppins;
     text-decoration: underline;
     color: #00D029;
@@ -54,24 +107,57 @@ main img{
 }
 
 main  a{
+    
     color: #185224;
 }
 
 main img.pequena{
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
 }
 
+div.video{
+    background-color: #032b0b;
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90% ;
+}
+
+
 footer{
+    padding: 8px;
     text-align: center;
     background-color: #185224;
     color: white;
+}
+
+footer > p{ 
+    text-align: center;
 }
 
 footer a {
     
     font-family: Montserrat;
     font-weight: bold;
+    transition-duration: 0.3s;
     color: #41D95F;
 }
+
+footer a:hover{
+    background-color: #032b0b;
+    padding: 4px;
+    border-radius: 3px;
+    color: #00D029;
+}
+
+
