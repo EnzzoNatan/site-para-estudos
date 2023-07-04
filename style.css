@@ -40,7 +40,7 @@ header > p{
     text-align: center;
     color: #032b0b;
     font-weight: 500;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 
@@ -59,7 +59,7 @@ main{
 
 
 main a:hover{
-    transition-duration: 0.3s;
+    transition-duration: 3s;
     padding: 2px;
     background-color: #032b0b;
     color: #41D95F;
